@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="#home" class="logo">Davis <span>Jones</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+            <a href="#friend">Friend</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="avatar.png" alt="">
+        </div>
+        <div class="home-content">
+            你好，我是 <span>予早</span>
+            <h3>你好，我是 <span>予早</span></h3>
+            <h1>这里是 <span>予早</span></h1>
+            <h3 class="text-animation">
+                一个 <span></span>
+            </h3>
+            <P>
+                <a href="https://tech.yuzaoyah.site">技术</a> <a href="https://health.yuzaoyah.site">健康</a> <a href="https://finance.yuzaoyah.site">金融</a>
+            </P>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bx-x'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3 class="text-animation">
+                <span></span>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum harum quae, minima, dolorem, recusandae
+                assumenda eaque delectus ullam cum consectetur nam quis repudiandae consequuntur animi provident eum
+                ratione? Consequatur, nulla?</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="about-img">
+            <img src="avatar.png" alt="">
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <h2 class="heading">项目</h2>
+        <div class="project-container">
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eaque officia veniam
+                        cupiditate alias quas?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">联系 <span>我</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="email" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <section class="friend" id="friend">
+        <div class="friend-container">
+            <div class="friend-box" onclick="window.open('https://www.mrdoc.fun')">
+                <div class="friend-info">
+                    <h4>Jonnyan404</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eaque officia veniam
+                        cupiditate alias quas?</p>
+                </div>
+            </div>
+            <div class="friend-box">
+                <div class="friend-info">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eaque officia veniam
+                        cupiditate alias quas?</p>
+                </div>
+            </div>
+            <div class="friend-box">
+                <div class="friend-info">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eaque officia veniam
+                        cupiditate alias quas?</p>
+                </div>
+            </div>
+            <div class="friend-box">
+                <div class="friend-info">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eaque officia veniam
+                        cupiditate alias quas?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bx-x'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © 予早 | All Rights Reserved
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
