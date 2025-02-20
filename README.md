@@ -1,5 +1,5 @@
 # Personal Homepage
-予早个人主页，me.yuzaoyah.website
+予早个人主页，me.yuzaoyah.site
 
 # 主页
 
