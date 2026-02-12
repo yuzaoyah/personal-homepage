@@ -16,6 +16,7 @@
 - [Nino](https://ninojay.top)：个人blog，hexo A4主题开发者
 - [三分恶](https://juejin.cn/user/254742429974295/posts)：个人blog
 - [Manjusaka](https://www.manjusaka.blog)：个人blog
+- [乔克世界](https://jokerbai.com/)：个人blog
 
 # 参考
 https://www.youtube.com/watch?v=nsPxL7anP3k
