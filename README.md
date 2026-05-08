@@ -27,6 +27,7 @@
 - [JIMMY SONG](https://jimmysong.io/)：个人 blog
 - [大肥羊学校](https://www.dafeiyang.cn/)
 - [Sukka](https://blog.skk.moe/)
+- [乔克世界](https://jokerbai.com/)：个人blog
 
 # 参考
 https://www.youtube.com/watch?v=nsPxL7anP3k
